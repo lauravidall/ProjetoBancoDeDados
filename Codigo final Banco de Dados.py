@@ -244,7 +244,7 @@ if opc ==1:
 
             if colunas[5].strip() == 'None' and colunas[7].strip() not in y:
                 with open('saldo.csv', 'a', encoding='utf-8') as sld:
-                    sld.write(f'{colunas[2].strip()}, {colunas[7].strip()}')   
+                    sld.write(f'{colunas[2].strip()}, {colunas[7].strip()}\n')   
                     
 
     with open('saldo.csv', 'r', encoding='utf-8') as sld:
